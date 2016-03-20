@@ -1,0 +1,47 @@
+<!-- Bagian Content -->
+<div class="container clearfix">
+  <div class="row row-offcanvas row-offcanvas-left ">
+    <!--Bagian Kiri-->
+    <div class="col-xs-12 col-sm-3 side pull-left sidebar-offcanvas" id="sidebar" role="navigation">
+      <div class="list-group">
+        <h1> Riku Kiranatama </h1>
+      </div>
+       <%= link_to image_tag("kenshi.jpg", class:"img-circle") %>
+    </div>
+    <!--Bagian Kanan-->
+    <div id="main-content" class="col-xs-12 col-md-9 main pull-right">
+      <div class="panel-body">
+        <table style="width: 100%">
+          <tr>
+            <td>
+              <label for="usr">Email:</label>
+            </td>
+            <td>
+              <div class="col-xs-12 col-md-12 form-group">
+                <input type="text" placeholder="Email Anda" class="form-control">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Message:</label>
+            </td>
+            <td>
+              <div class="col-xs-12 col-md-12 form-group">
+                <textarea placeholder="Message Anda" class="form-control" style="height: 200px"></textarea>
+              </div>
+            </td>
+          </tr>
+          <br/>
+          <tr>
+            <td>
+              <div>
+                <button type="button" class="btn btn-default">Submit</button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
